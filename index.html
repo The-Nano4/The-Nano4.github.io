@@ -1,36 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nano4 Jetson Cluster</title>
+
+<style>
+/* ===== GENERAL PAGE STYLE ===== */
 body {
-    background-color: lime;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d1117;
+    color: white;
+    line-height: 1.6;
 }
 
-
-/* Header */
+/* ===== HEADER ===== */
 header {
     background-color: #161b22;
     padding: 40px 20px;
     text-align: center;
-    color: white;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: white; /* Force title white */
+    color: white;
 }
 
 .subtitle {
     color: #cccccc;
 }
 
-/* Navigation */
+/* ===== NAVIGATION ===== */
 nav {
     background-color: #21262d;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
 }
 
 nav a {
-    color: white; /* Make nav text white */
-    margin: 0 15px;
+    color: white;
+    margin: 0 20px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -39,9 +49,9 @@ nav a:hover {
     color: #58a6ff;
 }
 
-/* Sections */
+/* ===== SECTIONS ===== */
 section {
-    padding: 40px 20px;
+    padding: 60px 20px;
     max-width: 900px;
     margin: auto;
 }
@@ -49,19 +59,19 @@ section {
 h2 {
     border-bottom: 2px solid #58a6ff;
     padding-bottom: 10px;
-    color: white; /* Force headers white */
+    color: white;
 }
 
-/* Images */
+/* ===== IMAGE STYLE ===== */
 img {
     width: 100%;
     max-width: 600px;
     display: block;
-    margin-top: 20px;
+    margin: 20px auto;
     border-radius: 8px;
 }
 
-/* Footer */
+/* ===== FOOTER ===== */
 footer {
     background-color: #161b22;
     text-align: center;
@@ -70,3 +80,62 @@ footer {
     font-size: 0.9em;
     color: #cccccc;
 }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Nano4: AI Server Farm</h1>
+    <p class="subtitle">NASA HUNCH – Warren Tech Central</p>
+</header>
+
+<nav>
+    <a href="#overview">Project Overview</a>
+    <a href="#problem">Problem Statement</a>
+    <a href="#design">System Design</a>
+    <a href="#progress">Progress & Results</a>
+    <a href="#team">Team</a>
+</nav>
+
+<section id="overview">
+    <h2>Project Overview</h2>
+    <p>Put your project overview text here.</p>
+</section>
+
+<section id="problem">
+    <h2>Problem Statement</h2>
+    <p>Put your problem statement here.</p>
+</section>
+
+<section id="design">
+    <h2>System Design</h2>
+    <p>Explain how your Jetson Nano cluster works here.</p>
+    <img src="prototype.jpg" alt="Cluster Prototype">
+</section>
+
+<section id="progress">
+    <h2>Progress & Results</h2>
+    <ul>
+        <li>Three Jetson Nano nodes integrated</li>
+        <li>Software stack deployed</li>
+        <li>Local data logging operational</li>
+    </ul>
+</section>
+
+<section id="team">
+    <h2>Team</h2>
+    <p>
+        Kenny Chiv<br>
+        Mylo Dove<br>
+        Davyd Prutskov<br>
+        Jackson Grimsley
+    </p>
+</section>
+
+<footer>
+    NASA HUNCH Project | 2026
+</footer>
+
+</body>
+</html>
