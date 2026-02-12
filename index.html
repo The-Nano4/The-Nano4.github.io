@@ -1,54 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Outdoor Activities Guide</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Nano4 Jetson Cluster</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Outdoor Activities Guide</h1>
-    <p>Throughout my childhood I always wanted to explore. Whether it was exploring the neighborhoods or going up to the mountains with my family, I dedicate this website to giving others the best destinations for exploring the outdoors.</p>
 
-    <p id="typing-text"></p>
-  </header>
+    <!-- ===== HEADER / TITLE SECTION ===== -->
+    <header>
+        <h1>Nano4: Low-Power AI Compute Cluster</h1>
+        <p class="subtitle">NASA HUNCH Project – Warren Tech</p>
+    </header>
 
-  <main>
-    <img src="mountain.jpg" alt="Mountain view" width="400">
-    <button onclick="changeBackgroundColor()">Change Background Color</button>
-  </main>
 
-  <footer>
-    <p>
-      <a href="https://github.com/kvvvvvxxcx">GitHub</a> | 
-      <a href="https://www.linkedin.com/in/kenny-thir-t-k314b0b6/">LinkedIn</a>
-    </p>
-  </footer>
+    <!-- ===== NAVIGATION (Optional but looks professional) ===== -->
+    <nav>
+        <a href="#overview">Overview</a>
+        <a href="#problem">Problem</a>
+        <a href="#design">System Design</a>
+        <a href="#progress">Progress</a>
+        <a href="#team">Team</a>
+    </nav>
 
-  <script>
 
-    function typeEffect(element, text, speed = 50) {
-      let i = 0;
-      const timer = setInterval(() => {
-        if (i < text.length) {
-          element.innerHTML += text.charAt(i);
-          i++;
-        } else {
-          clearInterval(timer);
-        }
-      }, speed);
-    }
+    <!-- ===== PROJECT OVERVIEW ===== -->
+    <section id="overview">
+        <h2>Project Overview</h2>
+        <p>
+            <!-- PUT YOUR PROJECT OVERVIEW TEXT HERE -->
+        </p>
+    </section>
 
-    window.onload = function() {
-      const element = document.getElementById('typing-text');
-      typeEffect(element, "Welcome to my awesome website!");
-    };
 
-    function changeBackgroundColor() {
-      const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-      document.body.style.backgroundColor = randomColor;
-    }
-  </script>
+    <!-- ===== PROBLEM STATEMENT ===== -->
+    <section id="problem">
+        <h2>Problem Statement</h2>
+        <p>
+            <!-- PUT YOUR PROBLEM STATEMENT HERE -->
+        </p>
+    </section>
+
+
+    <!-- ===== SYSTEM DESIGN ===== -->
+    <section id="design">
+        <h2>System Design</h2>
+        <p>
+            <!-- EXPLAIN HOW YOUR NODES CONNECT, HOT SWAP, ETC -->
+        </p>
+
+        <!-- OPTIONAL: IMAGE AREA -->
+        <img src="prototype.jpg" alt="Cluster Prototype Image">
+        <!-- Replace prototype.jpg with your actual image file -->
+    </section>
+
+
+    <!-- ===== PROGRESS ===== -->
+    <section id="progress">
+        <h2>Progress & Results</h2>
+        <ul>
+            <!-- LIST YOUR ACHIEVEMENTS HERE -->
+            <li>Three Jetson Nano nodes integrated</li>
+            <li>Software stack deployed</li>
+            <li>Local data logging operational</li>
+        </ul>
+    </section>
+
+
+    <!-- ===== TEAM SECTION ===== -->
+    <section id="team">
+        <h2>Team</h2>
+        <p>
+            <!-- PUT TEAM MEMBER NAMES HERE -->
+        </p>
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>NASA HUNCH Project | 2026</p>
+    </footer>
+
 </body>
 </html>
