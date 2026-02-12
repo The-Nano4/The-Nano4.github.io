@@ -1,4 +1,3 @@
-/* ===== VARIABLES ===== */
 :root {
     --bg-dark: #0d1117;
     --bg-header: #161b22;
@@ -9,7 +8,7 @@
     --max-width: 900px;
 }
 
-/* ===== GENERAL PAGE STYLE ===== */
+/* GENERAL PAGE STYLE */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +17,7 @@ body {
     line-height: 1.6;
 }
 
-/* ===== HEADER ===== */
+/* HEADER */
 header {
     background-color: var(--bg-header);
     padding: 40px 20px;
@@ -35,7 +34,7 @@ header h1 {
     margin-top: 10px;
 }
 
-/* ===== NAVIGATION ===== */
+/* NAVIGATION */
 nav {
     background-color: var(--bg-nav);
     padding: 15px;
@@ -54,7 +53,7 @@ nav a:hover {
     color: var(--accent);
 }
 
-/* ===== SECTIONS ===== */
+/* SECTIONS */
 section {
     padding: 60px 20px;
     max-width: var(--max-width);
@@ -67,7 +66,7 @@ h2 {
     color: var(--text-light);
 }
 
-/* ===== IMAGE STYLE ===== */
+/* IMAGE */
 img {
     width: 100%;
     max-width: 600px;
@@ -76,12 +75,12 @@ img {
     border-radius: 8px;
 }
 
-/* ===== LIST STYLE ===== */
+/* LISTS */
 ul {
     padding-left: 20px;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 footer {
     background-color: var(--bg-header);
     text-align: center;
