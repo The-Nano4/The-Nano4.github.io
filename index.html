@@ -1,63 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Nano4 Jetson Cluster</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d1117; /* Dark background */
+    color: white; /* All text white */
+    line-height: 1.6;
+}
 
-<header>
-    <h1>Nano4: AI Server Farm</h1>
-    <p class="subtitle">NASA HUNCH – Warren Tech Central</p>
-</header>
+/* Header */
+header {
+    background-color: #161b22;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
 
-<nav>
-    <a href="#overview">Project Overview</a>
-    <a href="#problem">Problem Statement</a>
-    <a href="#design">System Design</a>
-    <a href="#progress">Progress & Results</a>
-    <a href="#team">Team</a>
-</nav>
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white; /* Force title white */
+}
 
-<section id="overview">
-    <h2>Project Overview</h2>
-    <p>Put your overview text here.</p>
-</section>
+.subtitle {
+    color: #cccccc;
+}
 
-<section id="problem">
-    <h2>Problem Statement</h2>
-    <p>Put your problem statement here.</p>
-</section>
+/* Navigation */
+nav {
+    background-color: #21262d;
+    padding: 10px;
+    text-align: center;
+}
 
-<section id="design">
-    <h2>System Design</h2>
-    <p>Explain how your nodes connect and operate.</p>
-    <img src="prototype.jpg" alt="Cluster Prototype Image">
-</section>
+nav a {
+    color: white; /* Make nav text white */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-<section id="progress">
-    <h2>Progress & Results</h2>
-    <ul>
-        <li>Three Jetson Nano nodes integrated</li>
-        <li>Software stack deployed</li>
-        <li>Local data logging operational</li>
-    </ul>
-</section>
+nav a:hover {
+    color: #58a6ff;
+}
 
-<section id="team">
-    <h2>Team</h2>
-    <ul>
-        <li>Kenny Chiv</li>
-        <li>Mylo Dove</li>
-        <li>Davyd Prutskov</li>
-        <li>Jackson Grimsley</li>
-    </ul>
-</section>
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
 
-<footer>
-    <p>NASA HUNCH Project | 2026</p>
-</footer>
+h2 {
+    border-bottom: 2px solid #58a6ff;
+    padding-bottom: 10px;
+    color: white; /* Force headers white */
+}
 
-</body>
-</html>
+/* Images */
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #161b22;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #cccccc;
+}
