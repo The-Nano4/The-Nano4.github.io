@@ -72,12 +72,3 @@ img {
 ul {
     padding-left: 20px;
 }
-
-footer {
-    background-color: var(--bg-header);
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: var(--text-muted);
-}
