@@ -16,17 +16,16 @@ body {
     line-height: 1.6;
 }
 
-/* --- LOGO STYLES --- */
 .corner-logo {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    width: 80px;      /* This keeps the logo small */
-    height: auto;
-    z-index: 9999;
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+    width: 80px !important; 
+    height: auto !important;
+    z-index: 9999 !important;
+    display: block !important;
 }
 
-/* --- HEADER & NAV --- */
 header {
     background-color: var(--bg-header);
     padding: 40px 20px;
@@ -36,11 +35,6 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-}
-
-.subtitle {
-    color: var(--text-muted);
-    margin-top: 10px;
 }
 
 nav {
@@ -54,17 +48,6 @@ nav a {
     margin: 0 20px;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: var(--accent);
-}
-
-/* --- LAYOUT & SECTIONS --- */
-.container {
-    display: flex;
-    flex-direction: column;
 }
 
 section {
@@ -73,12 +56,6 @@ section {
     margin: auto;
 }
 
-h2 {
-    border-bottom: 2px solid var(--accent);
-    padding-bottom: 10px;
-}
-
-/* This applies ONLY to main images in your sections */
 section img {
     width: 100%;
     max-width: 600px;
@@ -87,29 +64,9 @@ section img {
     border-radius: 8px;
 }
 
-ul {
-    padding-left: 20px;
-}
-
 footer {
     background-color: var(--bg-header);
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    font-size: 0.9em;
-    color: var(--text-muted);
-}
-
-/* --- MEDIA QUERIES --- */
-@media (min-width: 768px) {
-    .container {
-        flex-direction: row;
-    }
-}
-
-/* Makes logo smaller on phones so it doesn't cover text */
-@media (max-width: 600px) {
-    .corner-logo {
-        width: 50px;
-    }
 }
